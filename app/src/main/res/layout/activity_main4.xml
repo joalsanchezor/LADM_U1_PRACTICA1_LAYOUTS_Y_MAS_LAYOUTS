@@ -16,7 +16,7 @@
             android:layout_width="30dp"
             android:layout_height="70dp"
             android:paddingTop="35dp"
-            android:background="#AF7E6F"/>
+            android:background="#25E85C"/>
         <TextView
             android:layout_width="8dp"
             android:layout_height="70dp"
@@ -52,7 +52,7 @@
             android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/pause" />
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButton3"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginLeft="40dp"
