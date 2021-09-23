@@ -38,16 +38,15 @@
                 android:id="@+id/Surftxt"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:background="@drawable/circulo"
-                android:textColor="@color/white"
-                android:textAlignment="center"
-                android:text="Surf"
-                android:paddingTop="30dp"
-                android:textStyle="italic"
-                android:textSize="26dp"
                 android:layout_marginLeft="150dp"
                 android:layout_marginTop="220dp"
-                />
+                android:background="@drawable/circulo"
+                android:paddingTop="30dp"
+                android:text="Surf"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:textStyle="italic" />
 
         </RelativeLayout>
 
