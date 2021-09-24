@@ -45,10 +45,11 @@
             android:layout_marginLeft="60dp"
             android:layout_marginTop="60dp"
             app:srcCompat="@drawable/reload" />
+
         <ImageButton
             android:id="@+id/imageButton2"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="235dp"
+            android:layout_height="268dp"
             android:layout_marginLeft="50dp"
             app:srcCompat="@drawable/pause" />
         <ImageButton
