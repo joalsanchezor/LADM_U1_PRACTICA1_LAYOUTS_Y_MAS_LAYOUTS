@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".MainActivity5">
-
+    android:background="@color/black"
+    tools:context=".MainActivity5_oscuro">
 
     <TextView
         android:id="@+id/textView5"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|left"
         android:textSize="30dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:paddingTop="15dp"
         android:text="Focus / \nBreathe /\nRelax / \n..." />
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|right"
         android:textSize="110dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:text="04" />
 
@@ -42,9 +42,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|left"
         android:textSize="20dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        android:text="Inhale\nfrom your\nnose" />
+        android:text="Hold\nyour\nbreath" />
 
     <TextView
         android:id="@+id/textView4"
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:textSize="50dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        android:text="00" />
+        android:text="05" />
 
     <TextView
         android:id="@+id/textView2"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
         android:textSize="30dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:text="End now" />
 </FrameLayout>

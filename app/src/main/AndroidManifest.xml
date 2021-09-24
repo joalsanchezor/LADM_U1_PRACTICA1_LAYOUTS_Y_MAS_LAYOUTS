@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LADM_U1_PRACTICA1_LAYOUTSYMASLAYOUTS">
         <activity
+            android:name=".MainActivity5_oscuro"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity9"
             android:exported="true" />
         <activity
