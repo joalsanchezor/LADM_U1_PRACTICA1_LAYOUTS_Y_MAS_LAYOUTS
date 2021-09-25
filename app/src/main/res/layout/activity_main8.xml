@@ -1,9 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity8">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/sanblas" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp"
+        android:foreground="@color/white"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:text="Descubre San Blas"
+        android:elegantTextHeight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="36dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:elegantTextHeight="true"
+        android:text="San Blas es el tipo de destino perfecto para pasear con la familia y amigos un fin de semana.
+A lo largo de sus 7 kilómetros de finísima arena se puede disfrutar de un divertido partido de fútbol, caminatas a la orilla del mar, o intentar montar una ola sobre una tabla de surf."
+        android:textColor="@color/teal_200"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="102dp"
+        android:layout_height="136dp"
+        android:layout_below="@id/txt2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/fondoJul18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jul"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="34dp"
+        android:elegantTextHeight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:elegantTextHeight="true"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="36dp"/>
+
+    <ImageView
+        android:id="@+id/image8"
+        android:layout_width="137dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/txt2"
+        android:layout_marginStart="-11dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@id/imageView7"
+        app:srcCompat="@drawable/fondonegroJul30"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jul"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="620dp"
+        android:elegantTextHeight="true"
+        android:layout_marginLeft="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:elegantTextHeight="true"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="150dp"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/recrojo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"/>
+
+</RelativeLayout>
