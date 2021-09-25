@@ -29,22 +29,26 @@ class MainActivity : AppCompatActivity() {
                     startActivity(activity5)
                 }
                 4->{
+                    var activity5Oscuro = Intent(this, MainActivity5_oscuro::class.java)
+                    startActivity(activity5Oscuro)
+                }
+                5->{
                     var activity6 = Intent(this, MainActivity6::class.java)
                     startActivity(activity6)
                 }
-                5->{
+                6->{
                     var activity7 = Intent(this, MainActivity7::class.java)
                     startActivity(activity7)
                 }
-                6->{
+                7->{
                     var activity8 = Intent(this, MainActivity8::class.java)
                     startActivity(activity8)
                 }
-                7->{
+                8->{
                     var activity9 = Intent(this, MainActivity9::class.java)
                     startActivity(activity9)
                 }
-                8->{
+                9->{
                     finish()
                 }
             }
