@@ -14,10 +14,17 @@
         <entry key="..\:/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTSYMASLAYOUTS/app/src/main/res/layout/activity_main8.xml" value="0.12894736842105264" />
         <entry key="..\:/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTSYMASLAYOUTS/app/src/main/res/layout/activity_main9.xml" value="0.12894736842105264" />
         <entry key="..\:/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTSYMASLAYOUTS/app/src/main/res/layout/activity_main_activity5_oscuro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/drawable/circulo.xml" value="0.1546875" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/drawable/circulo1.xml" value="0.1546875" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/drawable/cuadrorojo.xml" value="0.1546875" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/layout/activity_main6.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/layout/activity_main7.xml" value="0.10144927536231885" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/layout/activity_main8.xml" value="0.10144927536231885" />
+        <entry key="..\:/Users/josem/AndroidStudioProjects/LADM_U1_PRACTICA1_LAYOUTS_Y_MAS_LAYOUTS2/app/src/main/res/layout/activity_main9.xml" value="0.22" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

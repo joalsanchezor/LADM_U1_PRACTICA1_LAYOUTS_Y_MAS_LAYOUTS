@@ -1,9 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E1ECE9"
+    android:orientation="vertical"
     tools:context=".MainActivity9">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descubre San Blas"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/teal_700"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/sanblas1" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="151dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/cascada" />
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/charco"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="San Blas               Cascada de la Taza            Ch"
+        android:layout_marginLeft="40dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$460"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3d20h              35mi"
+        android:layout_marginLeft="120dp"
+        android:textSize="16dp"
+        android:layout_marginTop="100dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamado así por la forma de la cascada, cuya primera cresta tiene 8 metros de alto y 1 de ancho."
+        android:layout_margin="20dp"
+        android:textColor="@color/teal_200"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y la segunda 22 por 2 de anchura, este bello salto permanente de agua incrementa su caudal durante el tiempo de lluvias, brindando a sus visitantes una excelente oportunidad para nadar en sus pozas naturales."
+            android:layout_margin="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/circulo1"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cuadrorojo"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/iconoautobus"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp"/>
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/iconogaleria"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="200dp"/>
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/iconochat"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="300dp"/>
+    </RelativeLayout>
+</LinearLayout>
